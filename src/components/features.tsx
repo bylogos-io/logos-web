@@ -96,7 +96,7 @@ export function Features() {
         </motion.div>
 
         <div className="flex items-center justify-center gap-6">
-          <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="w-full xl:w-[70%] grid grid-cols-1 xl:grid-cols-3 gap-2 max-w-7xl mx-auto">
+          <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="w-full grid grid-cols-1 xl:grid-cols-3 gap-2 max-w-7xl mx-auto">
             {features.map((feature, index) => (
               <motion.div key={index} variants={itemVariants}>
                 <Card className="p-6 bg-card border-border hover:border-primary/50 transition-all duration-300 group hover:bg-card/80 h-full hover:scale-105">
@@ -113,9 +113,10 @@ export function Features() {
               </motion.div>
             ))}
           </motion.div>
-          <div className="w-full xl:w-[30%] hidden xl:block rounded-md pointer-events-none user-select-none">
-            <Image src={featuresImage} alt="Features" />
-          </div>
+          {/*
+            <div className="w-full xl:w-[30%] hidden xl:block rounded-md pointer-events-none user-select-none">
+              <Image src={featuresImage} alt="Features" />
+            </div>*/}
         </div>
       </div>
     </section>

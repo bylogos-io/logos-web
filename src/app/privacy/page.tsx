@@ -17,7 +17,7 @@ export default function Privacy() {
         </div>
         <div className="gap-2 flex flex-col">
           <h2 className="text-2xl font-bold text-white">Tipos de datos recolectados</h2>
-          <p className="text-lg text-foreground">LogOS puede recolectar y procesar los siguientes datos:</p>
+          <p className="text-lg text-foreground">Logos puede recolectar y procesar los siguientes datos:</p>
           <ul className="text-lg text-foreground list-disc list-inside">
             <li>Datos de usuario: nombre, correo electrónico, credenciales de acceso, roles y permisos. </li>
             <li>Datos de clientes: información de la compañía, ubicaciones de plantas o instalaciones, y configuración de sistemas eléctricos. </li>
@@ -43,13 +43,13 @@ export default function Privacy() {
           <ul className="text-lg text-foreground list-disc list-inside">
             <li>Consentimiento explícito del usuario o representante legal de la empresa.</li>
             <li>Cumplimiento de obligaciones contractuales y legales aplicables.</li>
-            <li>Interés legítimo de LogOS para mantener la operación, seguridad y mejora continua del software.</li>
+            <li>Interés legítimo de Logos para mantener la operación, seguridad y mejora continua del software.</li>
           </ul>
         </div>
 
         <div className="gap-2 flex flex-col">
           <h2 className="text-2xl font-bold text-white">Compartición y transferencia de datos</h2>
-          <p className="text-lg text-foreground">LogOS no venderá ni compartirá datos con terceros sin consentimiento explícito, salvo obligaciones legales.</p>
+          <p className="text-lg text-foreground">Logos no venderá ni compartirá datos con terceros sin consentimiento explícito, salvo obligaciones legales.</p>
           <p className="text-lg text-foreground">Datos pueden ser transferidos a proveedores de servicios bajo acuerdos de confidencialidad y seguridad equivalentes.</p>
           <p className="text-lg text-foreground">Para clientes con múltiples instalaciones, los datos pueden procesarse localmente en dispositivos Edge Computing y almacenados en servidores para garantizar respaldo y seguridad.</p>
         </div>
@@ -81,7 +81,7 @@ export default function Privacy() {
 
         <div className="gap-2 flex flex-col">
           <h2 className="text-2xl font-bold text-white">Modificaciones de la política</h2>
-          <p className="text-lg text-foreground">LogOS se reserva el derecho de modificar esta política de privacidad en cualquier momento. Las modificaciones serán publicadas en esta misma página y entrarán en vigencia inmediatamente después de su publicación.</p>
+          <p className="text-lg text-foreground">Logos se reserva el derecho de modificar esta política de privacidad en cualquier momento. Las modificaciones serán publicadas en esta misma página y entrarán en vigencia inmediatamente después de su publicación.</p>
         </div>
 
         <div className="gap-2 flex flex-col">

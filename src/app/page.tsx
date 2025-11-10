@@ -8,19 +8,21 @@ import { Stack } from "@/components/stack";
 import { Newsletter } from "@/components/newsletter";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { useRef } from "react";
 
 import "./page.css";
+//import { Arch } from "@/components/arch";
 
 export default function Home() {
-  const heroRef = useRef<HTMLDivElement | null>(null);
   return (
     <>
-      <div ref={heroRef}>
+      <div>
         <Header />
-        <Hero heroRef={heroRef} />
+        <Hero />
       </div>
       <Features />
+      {
+        //<Arch />
+      }
       <HardwareAlternatives />
       <Stack />
       <Newsletter />

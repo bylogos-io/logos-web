@@ -90,7 +90,7 @@ export function Newsletter() {
                 </div>
               </div>
               <h3 className="text-2xl text-foreground mb-4">¡Suscripción confirmada!</h3>
-              <p className="text-muted-foreground mb-6">Recibirás actualizaciones técnicas, casos de uso industriales y las últimas novedades de LogOS.</p>
+              <p className="text-muted-foreground mb-6">Recibirás actualizaciones técnicas, casos de uso industriales y las últimas novedades de Logos.</p>
               <Button variant="outline" onClick={() => setIsSubmitted(false)} className="border-border hover:bg-secondary">
                 Suscribir otro email
               </Button>
@@ -182,7 +182,7 @@ export function Newsletter() {
 
                 {/* Privacy notice */}
                 <p className="text-xs text-muted-foreground text-center mt-4">
-                  Al suscribirte, aceptas recibir emails de LogOS.
+                  Al suscribirte, aceptas recibir emails de Logos.
                   {/*y confirms que has leído nuestra{' '}
                   <a href="#privacy" className="text-primary hover:underline">
                     política de privacidad

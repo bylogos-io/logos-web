@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LogOS",
-  description: "LogOS: Plataforma SCADA modular para monitoreo industrial en tiempo real. Compatible con edge computing e IA integrada.",
-  applicationName: "LogOS",
+  title: "Logos",
+  description: "Logos: Plataforma SCADA modular para monitoreo industrial en tiempo real. Compatible con edge computing e IA integrada.",
+  applicationName: "Logos",
   keywords: ["SCADA", "industrial", "bylogosio", "logosia", "bylogosia", "bylogosiot", "logosio", "logosiot", "IoT", "automatización", "LogOS", "ByLogos", "IA", "Logos", "monitorización", "solución", "local-first", "software", "hardware"],
   authors: [{ name: "Logos", url: "https://www.linkedin.com/company/bylogos/" }],
   creator: "Javier Vargas",
@@ -34,7 +34,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <CustomCursor />
+          {/*
+          <CustomCursor />*/}
           {children}
         </ThemeProvider>
       </body>

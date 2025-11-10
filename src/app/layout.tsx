@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider";
-import { CustomCursor } from "@/components/ui/custom-cursor";
+//import { CustomCursor } from "@/components/ui/custom-cursor";
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -17,9 +17,50 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Logos",
-  description: "Logos: Plataforma SCADA modular para monitoreo industrial en tiempo real. Compatible con edge computing e IA integrada.",
+  description: "Mejora tu eficiencia usando nuestro sistema de gestión inteligente. SCADA, BMS, AIIoT",
   applicationName: "Logos",
-  keywords: ["SCADA", "industrial", "bylogosio", "logosia", "bylogosia", "bylogosiot", "logosio", "logosiot", "IoT", "automatización", "LogOS", "ByLogos", "IA", "Logos", "monitorización", "solución", "local-first", "software", "hardware"],
+  keywords: [
+    "SCADA",
+    "industrial",
+    "AIIoT",
+    "AI",
+    "IIoT",
+    "BMS",
+    "HMI",
+    "SEEED",
+    "KUNBUS",
+    "Smart Cities",
+    "Smart City",
+    "Building Management System",
+    "Building",
+    "Management",
+    "System",
+    "events",
+    "alarms",
+    "bylogosio",
+    "logosia",
+    "bylogosia",
+    "bylogosiot",
+    "logosio",
+    "logosiot",
+    "IoT",
+    "automatización",
+    "LogOS",
+    "ByLogos",
+    "IA",
+    "Logos",
+    "monitorización",
+    "solución",
+    "local-first",
+    "software",
+    "hardware",
+  ],
+  robots: {
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   authors: [{ name: "Logos", url: "https://www.linkedin.com/company/bylogos/" }],
   creator: "Javier Vargas",
   metadataBase: new URL("https://bylogos.io"),

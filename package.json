@@ -1,9 +1,9 @@
 {
   "name": "logos",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=90 next dev --turbopack",
+    "dev": "PORT=80 next dev --turbopack",
     "build": "next build",
     "start": "PORT=80 next start",
     "lint": "next lint"

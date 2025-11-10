@@ -8,7 +8,7 @@ const testimonials = [
   {
     company: "Red Salud",
     industry: "Médicina",
-    quote: "LogOS nos ha permitido reducir el tiempo de respuesta ante incidencias en un 70%. La integración con nuestros sistemas legacy fue perfecta.",
+    quote: "Logos nos ha permitido reducir el tiempo de respuesta ante incidencias en un 70%. La integración con nuestros sistemas legacy fue perfecta.",
     metrics: "70% reducción MTTR",
     icon: Building2,
     installations: "45+ subestaciones",

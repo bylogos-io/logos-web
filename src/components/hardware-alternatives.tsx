@@ -8,6 +8,8 @@ import { Badge } from "./ui/badge";
 import { Monitor, Server, Wifi, Camera, HardDrive, Zap, Cpu } from "lucide-react";
 import reterminalImage from "@public/hardware-alternatives/reterminal.png";
 import recomputerImage from "@public/hardware-alternatives/recomputer.png";
+import seeed from "@public/seeed.png";
+import Image from "next/image";
 
 const hardwareOptions = [
   {
@@ -55,7 +57,7 @@ export function HardwareAlternatives() {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-disabled">Soluciones de hardware especializadas de Seeed Studio, optimizadas para ejecutar LogOS en entornos industriales exigentes.</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl mx-auto">
           {hardwareOptions.map((hardware, index) => (
             <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: index * 0.2 }} viewport={{ once: true }}>
               <Card className="pt-0 overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300 group h-full">
@@ -64,8 +66,8 @@ export function HardwareAlternatives() {
                   <Badge className="absolute top-4 right-4 z-10 bg-primary text-primary-foreground">{hardware.highlight}</Badge>
 
                   {/* Hardware image */}
-                  <div className="aspect-[4/3] bg-gradient-to-br from-secondary to-secondary/50 flex items-center justify-center p-8">
-                    <img src={hardware.image} alt={hardware.name} className="max-w-full max-h-full object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-300 text-disabled" />
+                  <div className="aspect-[4/3] bg-gradient-to-br from-secondary to-secondary/50 flex items-center justify-center p-8 relative">
+                    <Image src={hardware.image} alt={hardware.name} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-300 text-disabled" />
                   </div>
                 </div>
 
@@ -135,10 +137,12 @@ export function HardwareAlternatives() {
         </div>
 
         {/* Partnership info */}
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.4 }} viewport={{ once: true }} className="mt-16 text-center">
-          <div className="bg-card border border-border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-xl text-foreground mb-4 text-disabled">Hardware Seeed Studio</h3>
-            <p className="text-muted-foreground text-disabled">LogOS está probado y optimizado para hardware Seeed Studio, garantizando máximo rendimiento y compatibilidad en entornos industriales críticos.</p>
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.4 }} viewport={{ once: true }} className="mt-6 text-center">
+          <div className="bg-card border border-border rounded-lg p-8 max-w-7xl mx-auto">
+            <h3 className="text-xl text-foreground mb-4 text-disabled">
+              <Image src={seeed} alt="Seeed Studio" className="w-50 h-full inline-block mr-2" />
+            </h3>
+            <p className="text-muted-foreground text-disabled">Logos está probado y optimizado para hardware Seeed Studio, garantizando máximo rendimiento y compatibilidad en entornos industriales críticos.</p>
           </div>
         </motion.div>
       </div>

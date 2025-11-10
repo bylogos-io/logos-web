@@ -1,7 +1,7 @@
 {
   "name": "Logos",
   "short_name": "Logos",
-  "description": "SCADA inteligente para monitoreo, visualización y control industrial en tiempo real. Modular, escalable y listo para edge computing.",
+  "description": "Mejora tu eficiencia usando nuestro sistema de gestión inteligente. SCADA, BMS, AIIoT",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f0f",

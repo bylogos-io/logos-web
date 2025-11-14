@@ -54,8 +54,8 @@ importers:
         specifier: ^4.8.0
         version: 4.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       simple-icons:
-        specifier: ^15.7.0
-        version: 15.7.0
+        specifier: ^15.20.0
+        version: 15.20.0
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -2220,8 +2220,8 @@ packages:
     resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
     engines: {node: '>= 0.4'}
 
-  simple-icons@15.7.0:
-    resolution: {integrity: sha512-buN9moq1lh6Tujgr2Nc3Vgi4naE0IOKon48G42aLWqSNxjWJlUx+YSqobKcefom4uv1xyAVFcjQOJIhBJvXjGw==}
+  simple-icons@15.20.0:
+    resolution: {integrity: sha512-vo7/gojtNbh+dzKx6TGriI26O8MDn2MYUJUU4hKso6mTK1tFWl1OFPIg+D2BiAvXdyAy4z+gk/K1NvpYxh9D1A==}
     engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.2:
@@ -4634,7 +4634,7 @@ snapshots:
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
 
-  simple-icons@15.7.0: {}
+  simple-icons@15.20.0: {}
 
   simple-swizzle@0.2.2:
     dependencies:

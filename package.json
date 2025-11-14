@@ -3,7 +3,7 @@
   "version": "1.5.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=80 next dev --turbopack",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "PORT=80 next start",
     "lint": "next lint"
@@ -24,7 +24,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "resend": "^4.8.0",
-    "simple-icons": "^15.7.0",
+    "simple-icons": "^15.20.0",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {

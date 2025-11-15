@@ -14,7 +14,7 @@ const features = [
   {
     icon: Zap,
     title: "Diagramas Unilineales",
-    description: "Esquemas unilineales interactivos con representación dinámica del estado de la instalación.",
+    description: "Esquemas interactivos con representación dinámica del estado de la instalación.",
     color: "text-primary",
   },
   {

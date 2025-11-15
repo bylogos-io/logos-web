@@ -14,7 +14,7 @@ const features = [
   {
     icon: Zap,
     title: "Diagramas Unilineales",
-    description: "Esquemas unifilares interactivos con representación dinámica del estado de la instalación.",
+    description: "Esquemas unilineales interactivos con representación dinámica del estado de la instalación.",
     color: "text-primary",
   },
   {
@@ -55,8 +55,8 @@ const features = [
   },
   {
     icon: Cloud,
-    title: "Cloud Sync",
-    description: "Sincronización en la nube para acceder a tu información desde cualquier dispositivo.",
+    title: "Respaldo en la nube",
+    description: "Sincronización a la nube para acceder a tu información desde cualquier dispositivo.",
     color: "text-primary",
   },
 ];

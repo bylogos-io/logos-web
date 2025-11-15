@@ -3,8 +3,6 @@
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
 import { Activity, Zap, Database, AlertTriangle, Bot, Cloud, ScanFace, NotepadText, Box } from "lucide-react";
-import Image from "next/image";
-import featuresImage from "@public/features.png";
 
 const features = [
   {
@@ -15,7 +13,7 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Diagramas Unifilares",
+    title: "Diagramas Unilineales",
     description: "Esquemas unifilares interactivos con representación dinámica del estado de la instalación.",
     color: "text-primary",
   },
@@ -51,7 +49,7 @@ const features = [
   },
   {
     icon: Box,
-    title: "Clon Digital",
+    title: "Gemelo Digital",
     description: "Representa tu proceso en el mundo digital con una copia exacta de tu instalación.",
     color: "text-primary",
   },

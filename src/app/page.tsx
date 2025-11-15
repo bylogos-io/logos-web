@@ -7,6 +7,7 @@ import { HardwareAlternatives } from "@/components/hardware-alternatives";
 import { Stack } from "@/components/stack";
 import { Newsletter } from "@/components/newsletter";
 import { Footer } from "@/components/footer";
+
 import { Header } from "@/components/header";
 
 import "./page.css";

@@ -36,7 +36,7 @@ export function Stack() {
   ];
 
   return (
-    <section className="py-24 bg-secondary/20" id="stack">
+    <section className="py-24 bg-secondary/30" id="stack">
       <div className="container mx-auto px-6">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-6">

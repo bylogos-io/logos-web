@@ -102,7 +102,7 @@ export function Newsletter() {
   }
 
   return (
-    <section className="py-24 bg-gradient-to-br from-primary/5 to-background" id="newsletter">
+    <section className="py-24 bg-gradient-to-br from-primary/5 to-background border-b-2 border-border" id="newsletter">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="text-center mb-16">

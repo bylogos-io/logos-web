@@ -15,19 +15,26 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <>
-      <div>
-        <Header />
-        <Hero />
+    <div>
+      <div className="">
+        <div className="bg-black">
+          <div>
+            <Header />
+            <Hero />
+          </div>
+          <Features />
+          {
+            //<Arch />
+          }
+          <HardwareAlternatives />
+          <Stack />
+          <Newsletter />
+        </div>
+        <div className="h-80 -z-20"></div>
       </div>
-      <Features />
-      {
-        //<Arch />
-      }
-      <HardwareAlternatives />
-      <Stack />
-      <Newsletter />
-      <Footer />
-    </>
+      <div className="fixed bottom-0 left-0 right-0 -z-1">
+        <Footer />
+      </div>
+    </div>
   );
 }

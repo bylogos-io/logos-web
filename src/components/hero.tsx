@@ -44,7 +44,7 @@ export function Hero() {
         </div>
         {/* Trust indicator */}
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.8 }} className="text-sm text-muted-foreground mb-8 text-disabled">
-          Probado en industrias críticas • Acoplado a normativas RIC para SEN{/*• ISO 27001 • IEC 61850*/}
+          Probado en industrias críticas • Acoplado a normativas RIC para SEC{/*• ISO 27001 • IEC 61850*/}
         </motion.p>
       </motion.div>
     </section>

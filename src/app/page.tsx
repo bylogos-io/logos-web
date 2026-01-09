@@ -14,27 +14,27 @@ import "./page.css";
 //import { Arch } from "@/components/arch";
 
 export default function Home() {
-  return (
-    <div>
-      <div className="">
-        <div className="bg-black">
-          <div>
-            <Header />
-            <Hero />
-          </div>
-          <Features />
-          {
-            //<Arch />
-          }
-          <HardwareAlternatives />
-          <Stack />
-          <Newsletter />
+    return (
+        <div>
+            <div className="relative z-10">
+                <div className="bg-black">
+                    <div>
+                        <Header />
+                        <Hero />
+                    </div>
+                    <Features />
+                    {
+                        //<Arch />
+                    }
+                    <HardwareAlternatives />
+                    <Stack />
+                    <Newsletter />
+                </div>
+            </div>
+            <div className="h-80 -z-60 pointer-events-none select-none"></div>
+            <div className="fixed bottom-0 left-0 right-0 z-1 pointer-events-auto">
+                <Footer />
+            </div>
         </div>
-        <div className="h-80 -z-20"></div>
-      </div>
-      <div className="fixed bottom-0 left-0 right-0 -z-1">
-        <Footer />
-      </div>
-    </div>
-  );
+    );
 }
